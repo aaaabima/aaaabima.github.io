@@ -1,0 +1,33 @@
+:root {
+    font-size: 15px;
+}
+
+.text-green {
+    color: #3ef8f8;
+    font-size: 30px;
+}
+
+.text-green::after {
+    content: " ";
+}
+
+.kotak {
+    color: white;
+    background: #0c0;
+    height: 120px;
+    display: grid;
+    align-content: center;
+    text-align: center;
+}
+
+#chart {
+    width: 100%;
+    min-height: 450px; 
+    height: 80vw;
+}
+
+@media screen and (max-width: 756px) {
+    :root {
+        font-size: 13px;
+    }
+}
